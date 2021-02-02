@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client"],
+    "typeRoots": ["./src"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "paths": {
+      "$config/*": ["config/*"],
+      "$common/*": ["src/common/*"],
+      "$assets/*": ["src/common/assets/*"],
+      "$constants/*": ["src/common/constants/*"],
+      "$components/*": ["src/components/*"],
+    },
+    "baseUrl": "."
+  },
+  "include": ["./src", "./config"]
+}
