@@ -1,12 +1,12 @@
 import React from 'react'
-import MainContent from '../MainContent'
-import MainSidebar from '../MainSidebar'
+import ContentContainer from '../Content'
+import SidebarContainer from '../Sidebar'
 
 const MainContainer = () => {
 	return (
 		<div className="main-container">
-			<MainSidebar />
-			<MainContent />
+			<SidebarContainer />
+			<ContentContainer />
 		</div>
 	)
 }
